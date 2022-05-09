@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Support-desk",
   "main": "server.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js --ignore client",
