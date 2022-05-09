@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Support-desk",
   "main": "server.js",
-  "engines": {
-    "node":"16.14.1",
-    "npm":"8.5.0"
-  },
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js --ignore client",
@@ -34,5 +30,9 @@
   },
   "devDependencies": {
     "file-loader": "^6.2.0"
+  },
+  "engines": {
+    "node":"16.14.1",
+    "npm":"8.5.0"
   }
 }
